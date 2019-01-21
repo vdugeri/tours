@@ -7,19 +7,20 @@ Dark green: #28b485
 
 */
 
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
 @import "base/base";
 @import "base/animations";
 @import "base/typography";
 @import "base/utilities";
 
-@import "abstracts/functions";
-@import "abstracts/mixins";
-@import "abstracts/variables";
-
 @import "pages/home";
 
 @import "components/button";
 
+@import "layouts/grid";
 @import "layouts/header";
 
 
