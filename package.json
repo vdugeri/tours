@@ -1,22 +1,32 @@
 {
   "name": "tours",
   "version": "1.0.0",
-  "description": "",
+  "description": "book for tours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "./node_modules/.bin/nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vdugeri/tours.git"
   },
   "author": "Verem Dugeri <verem.dugeri@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vdugeri/tours/issues"
   },
   "homepage": "https://github.com/vdugeri/tours#readme",
   "devDependencies": {
     "node-sass": "^4.11.0"
-  }
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  },
+  "keywords": [
+    "tours",
+    "nature"
+  ]
 }
