@@ -4,7 +4,7 @@
   "description": "book for tours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w",
     "start": "node server.js"
   },
   "repository": {
